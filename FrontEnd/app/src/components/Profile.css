@@ -1,0 +1,86 @@
+
+.registro,
+.login,
+.recuperar {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  width: 400px;
+  margin: 40px auto; /* Центрирование формы и отступы */
+}
+
+.registro h2, .login h2 {
+  text-align: center;
+  color: #333;
+}
+
+.registro form, .login form, .recuperar form {
+  display: flex;
+  flex-direction: column; /* Вертикальное расположение элементов */
+  padding: 30px;
+}
+
+.registro input, .login input, .recuperar input {
+  width: 100%; /* Полная ширина внутри контейнера */
+  padding: 8px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.registro input[type="submit"], .login input[type="submit"] {
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px; /* Отступ сверху для кнопки отправки */
+}
+
+.registro input[type="submit"]:hover, .login input[type="submit"]:hover {
+  background-color: #004494;
+}
+
+.registro label, .login label {
+  display: block;
+  margin: 5px 0; /* Отступы вокруг иконок */
+}
+
+/* Стили для сообщений об ошибках */
+.registro p#errorEmail, .registro p#errorPassword,
+.login p#errorEmail, .login p#errorPassword {
+  color: red;
+  font-size: 0.875rem;
+  height: 18px; /* Фиксированная высота */
+}
+
+/* Ссылки для перехода между формами */
+.registro .link, .recuperar, .login .link {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.registro .link a, .login .link a {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+.registro .link a:hover, .login .link a:hover {
+  text-decoration: underline;
+
+}
+.btn{
+  margin-top: 20px;
+  height: 40px;
+  min-width: 100%;
+  margin-left: 10px;}
+.link{
+  font-size: 16px;
+}
+.recuperarForm{
+  margin-top: 10px;
+  display: flex;
+justify-content: center;
+flex-direction: column;
+
+}
